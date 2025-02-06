@@ -11,7 +11,7 @@ from blue_key import *
 from red_key import *
 import sys
 from musica import Musica
-from musica import Check
+
 
 
 class Game:
@@ -133,9 +133,6 @@ class Game:
 
         if len(self.green_keys) < 1:
             self.verde = 'OK'
-            check = Check('./musica/coletado.mp3')
-            if not check.som_tocado:
-                check.tocar()
                 
             
         if len(self.blue_keys) < 1:

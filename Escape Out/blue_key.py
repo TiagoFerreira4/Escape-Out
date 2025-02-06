@@ -1,6 +1,6 @@
 import pygame
 from config import *
-from musica import Check
+
 
 class Blue_key(pygame.sprite.Sprite):
 
@@ -35,5 +35,4 @@ class Blue_key(pygame.sprite.Sprite):
                 self.game.blue_keys.remove(blue_key)
 
 
-        som_coletado = Check('./musica/coletado.mp3')
-        som_coletado.tocar()
+        
